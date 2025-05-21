@@ -13,3 +13,8 @@ print(names)
 # Please write a program which prints out the following lines exactly as they are written here, punctuation and all:
 
 print("Row, row, row your boat,\nGently down the stream.\nMerrily, merrily, merrily, merrily,\nLife is but a dream.")
+
+# Please write a program which prints out the number of minutes in a year. Use Python code to perform the calculation, as in the previous code example.
+
+print("Minutes in a year:")
+print(365*24*60)
