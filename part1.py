@@ -18,3 +18,8 @@ print("Row, row, row your boat,\nGently down the stream.\nMerrily, merrily, merr
 
 print("Minutes in a year:")
 print(365*24*60)
+
+# Please write a program which prints out the following:
+# Sample output "Hello there!"
+
+print('"Hello there!"')
