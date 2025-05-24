@@ -8,9 +8,32 @@ print("thank you!")
 
 # Please write a program which asks the user for a floating point number and then prints out the integer part and the decimal part separately. Use the Python int function. /
 
-number = float(input("Please type in a number: "))
+# number = float(input("Please type in a number: "))
 
-print("The integer part is", int(number))
+# print("The integer part is", int(number))
 
-decimal_part = number -int(number)
-print("The decimal part is", round(decimal_part, 2))
+# decimal_part = number -int(number)
+# print("The decimal part is", round(decimal_part, 2))
+
+# The following program contains several syntactic errors. Please fix the program so that the syntax is in order and the program works as specified by the examples below.
+
+number = int(input("Please type in a number: "))
+
+if number > 100:
+
+    print("The number was greater than one hundred")
+
+    new_number = number - 100
+
+    print("Now its value has decreased by one hundred")
+
+else: 
+    
+    new_number = number
+
+print("Its value is now", int(new_number))
+
+print(int(new_number), " must be my lucky number!")
+
+print("Have a nice day!")
+
