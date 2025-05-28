@@ -1,49 +1,69 @@
-#number of characters
-word = input("Please type in a word: ")
+from math import sqrt
 
-if len(word) > 1:
-    print(f"There are {len(word)} letters in the word {word}")
+# #number of characters
+# word = input("Please type in a word: ")
 
-print("thank you!")
+# if len(word) > 1:
+#     print(f"There are {len(word)} letters in the word {word}")
 
-# Please write a program which asks the user for a floating point number and then prints out the integer part and the decimal part separately. Use the Python int function. /
+# print("thank you!")
 
-number = float(input("Please type in a number: "))
+# # Please write a program which asks the user for a floating point number and then prints out the integer part and the decimal part separately. Use the Python int function. /
 
-print("The integer part is", int(number))
+# number = float(input("Please type in a number: "))
 
-decimal_part = number -int(number)
-print("The decimal part is", round(decimal_part, 2))
+# print("The integer part is", int(number))
 
-# The following program contains several syntactic errors. Please fix the program so that the syntax is in order and the program works as specified by the examples below.
+# decimal_part = number -int(number)
+# print("The decimal part is", round(decimal_part, 2))
 
-number = int(input("Please type in a number: "))
+# # The following program contains several syntactic errors. Please fix the program so that the syntax is in order and the program works as specified by the examples below.
 
-if number > 100:
+# number = int(input("Please type in a number: "))
 
-    print("The number was greater than one hundred")
+# if number > 100:
 
-    new_number = number - 100
+#     print("The number was greater than one hundred")
 
-    print("Now its value has decreased by one hundred")
+#     new_number = number - 100
 
-else: 
+#     print("Now its value has decreased by one hundred")
+
+# else: 
     
-    new_number = number
+#     new_number = number
 
-print("Its value is now", int(new_number))
+# print("Its value is now", int(new_number))
 
-print(int(new_number), " must be my lucky number!")
+# print(int(new_number), " must be my lucky number!")
 
-print("Have a nice day!")
+# print("Have a nice day!")
 
 
-# This program should print out the message "hi" and then ask "Shall we continue?" until the user inputs "no". Then the program should print out "okay then" and finish. 
+# # This program should print out the message "hi" and then ask "Shall we continue?" until the user inputs "no". Then the program should print out "okay then" and finish. 
+
+# while True:
+#     print("hi!")
+
+#     answer = input("Shall we continue? ")
+#     if answer == "no":
+#         break
+# print("Ok then")
+
+
+# Please write a program which asks the user for integer numbers.
+# If the number is below zero, the program should print out the message "Invalid number".
+# If the number is above zero, the program should print out the square root of the number using the Python sqrt function.
+# In either case, the program should then ask for another number.
+# If the user inputs the number zero, the program should stop asking for numbers and exit the loop.
+
 
 while True:
-    print("hi!")
-
-    answer = input("Shall we continue? ")
-    if answer == "no":
+    number = int(input("Please enter a number:"))
+    if number == 0:
         break
-print("Ok then")
+    elif number < 0:
+        print("Invalid number.")
+    else:
+        print(sqrt(number))
+print("Exiting....")
