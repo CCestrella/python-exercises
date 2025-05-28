@@ -8,12 +8,12 @@ print("thank you!")
 
 # Please write a program which asks the user for a floating point number and then prints out the integer part and the decimal part separately. Use the Python int function. /
 
-# number = float(input("Please type in a number: "))
+number = float(input("Please type in a number: "))
 
-# print("The integer part is", int(number))
+print("The integer part is", int(number))
 
-# decimal_part = number -int(number)
-# print("The decimal part is", round(decimal_part, 2))
+decimal_part = number -int(number)
+print("The decimal part is", round(decimal_part, 2))
 
 # The following program contains several syntactic errors. Please fix the program so that the syntax is in order and the program works as specified by the examples below.
 
@@ -37,3 +37,13 @@ print(int(new_number), " must be my lucky number!")
 
 print("Have a nice day!")
 
+
+# This program should print out the message "hi" and then ask "Shall we continue?" until the user inputs "no". Then the program should print out "okay then" and finish. 
+
+while True:
+    print("hi!")
+
+    answer = input("Shall we continue? ")
+    if answer == "no":
+        break
+print("Ok then")
