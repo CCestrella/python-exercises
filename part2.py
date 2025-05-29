@@ -58,12 +58,27 @@ from math import sqrt
 # If the user inputs the number zero, the program should stop asking for numbers and exit the loop.
 
 
-while True:
-    number = int(input("Please enter a number:"))
-    if number == 0:
-        break
-    elif number < 0:
-        print("Invalid number.")
-    else:
-        print(sqrt(number))
-print("Exiting....")
+# while True:
+#     number = int(input("Please enter a number:"))
+#     if number == 0:
+#         break
+#     elif number < 0:
+#         print("Invalid number.")
+#     else:
+#         print(sqrt(number))
+# print("Exiting....")
+
+# This program should print out a countdown. The code is as follows:
+# number = 5
+# print("Countdown!")
+# while True:
+#   print(number)
+#   number = number - 1
+#   if number > 0:
+#     break
+
+# print("Now!")
+
+# corrected version
+
+
