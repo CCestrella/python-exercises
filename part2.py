@@ -138,12 +138,25 @@
 
 #  Add program to compare home and away goals and print match result
 
-goals_home = int(input("Home goals scored: "))
-goals_away = int(input("Away goald scored:)"))
+# goals_home = int(input("Home goals scored: "))
+# goals_away = int(input("Away goald scored:)"))
 
-if goals_home > goals_away:
-    print("The home team won!")
-elif goals_away > goals_home:
-    print("The away team won!")
-else:
-    print("It's a tie!")
+# if goals_home > goals_away:
+#     print("The home team won!")
+# elif goals_away > goals_home:
+#     print("The away team won!")
+# else:
+#     print("It's a tie!")
+
+# Add holiday calendar program that prints holiday name based on user input date
+print("Holiday calendar")
+date = input("What is the date today? ")
+
+if date == "Dec 26":
+    print("It's Boxing Day")
+elif date == "Dec 31":
+    print("It's Hogmanay")
+elif date == "Jan 1":
+    print("It's New Year's Day")
+
+print("Thanks and bye.")
