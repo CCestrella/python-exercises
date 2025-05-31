@@ -108,9 +108,20 @@
 
 #modulo
 
-number = int(input("Enter a number: "))
+# number = int(input("Enter a number: "))
 
-if number % 2 == 0:
-    print("This number is even")
+# if number % 2 == 0:
+#     print("This number is even")
+# else:
+#     print("This number is odd.")
+
+# Add password check program that compares user input to a preset password and prints success or failure message
+
+correct = "kittycat"
+password = input("Please type in the password: ")
+
+if password == correct:
+    print("You have entered the correct password!")  
 else:
-    print("This number is odd.")
+    print("You have entered an incorrect password!")
+    
