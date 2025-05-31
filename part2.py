@@ -84,24 +84,33 @@
 
 # Three attempts for pin
 
-attempts = 0 
+# attempts = 0 
 
-while True:
-    code = input("Please type in your pin: ")
-    attempts += 1
+# while True:
+#     code = input("Please type in your pin: ")
+#     attempts += 1
 
-    if code == "1234":
-        success = True
-        break
+#     if code == "1234":
+#         success = True
+#         break
 
-    if attempts == 3:
-        success = False
-        break
+#     if attempts == 3:
+#         success = False
+#         break
 
-    print("Incorrect... Try again!")
+#     print("Incorrect... Try again!")
 
-if success:
-    print("Correct pin entered!")
+# if success:
+#     print("Correct pin entered!")
 
+# else:
+#     print("Too many attempts!")
+
+#modulo
+
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("This number is even")
 else:
-    print("Too many attempts!")
+    print("This number is odd.")
