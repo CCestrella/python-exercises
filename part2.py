@@ -72,12 +72,36 @@
 
 # Please write a program which asks the user for a password. The program should then ask the user to type in the password again. If the user types in something else than the first password, the program should keep on asking until the user types the first password again correctly.
 
+# while True:
+#     password = input("Create a password: ")
+#     confirm_password = input("Confirm password: ")
+
+#     if password == confirm_password:
+#         break
+#     print("Incorrect Password. Please try again!")
+
+# print("User Account Created!")
+
+# Three attempts for pin
+
+attempts = 0 
+
 while True:
-    password = input("Create a password: ")
-    confirm_password = input("Confirm password: ")
+    code = input("Please type in your pin: ")
+    attempts += 1
 
-    if password == confirm_password:
+    if code == "1234":
+        success = True
         break
-    print("Incorrect Password. Please try again!")
 
-print("User Account Created!")
+    if attempts == 3:
+        success = False
+        break
+
+    print("Incorrect... Try again!")
+
+if success:
+    print("Correct pin entered!")
+
+else:
+    print("Too many attempts!")
