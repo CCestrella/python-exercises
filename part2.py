@@ -117,11 +117,20 @@
 
 # Add password check program that compares user input to a preset password and prints success or failure message
 
-correct = "kittycat"
-password = input("Please type in the password: ")
+# correct = "kittycat"
+# password = input("Please type in the password: ")
 
-if password == correct:
-    print("You have entered the correct password!")  
-else:
-    print("You have entered an incorrect password!")
+# if password == correct:
+#     print("You have entered the correct password!")  
+# else:
+#     print("You have entered an incorrect password!")
     
+
+# Please write a program which asks the user for their age. The program should then print out a message based on whether the user is of age or not, using 18 as the age of maturity.
+
+age = int(input("Please type your age: "))
+
+if age < 18:
+    print("You are not of age!")
+else:
+    print("You are of age!")
