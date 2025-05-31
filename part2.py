@@ -128,9 +128,22 @@
 
 # Please write a program which asks the user for their age. The program should then print out a message based on whether the user is of age or not, using 18 as the age of maturity.
 
-age = int(input("Please type your age: "))
+# age = int(input("Please type your age: "))
 
-if age < 18:
-    print("You are not of age!")
+# if age < 18:
+#     print("You are not of age!")
+# else:
+#     print("You are of age!")
+
+
+#  Add program to compare home and away goals and print match result
+
+goals_home = int(input("Home goals scored: "))
+goals_away = int(input("Away goald scored:)"))
+
+if goals_home > goals_away:
+    print("The home team won!")
+elif goals_away > goals_home:
+    print("The away team won!")
 else:
-    print("You are of age!")
+    print("It's a tie!")
