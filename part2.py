@@ -149,14 +149,27 @@
 #     print("It's a tie!")
 
 # Add holiday calendar program that prints holiday name based on user input date
-print("Holiday calendar")
-date = input("What is the date today? ")
+# print("Holiday calendar")
+# date = input("What is the date today? ")
 
-if date == "Dec 26":
-    print("It's Boxing Day")
-elif date == "Dec 31":
-    print("It's Hogmanay")
-elif date == "Jan 1":
-    print("It's New Year's Day")
+# if date == "Dec 26":
+#     print("It's Boxing Day")
+# elif date == "Dec 31":
+#     print("It's Hogmanay")
+# elif date == "Jan 1":
+#     print("It's New Year's Day")
 
-print("Thanks and bye.")
+# print("Thanks and bye.")
+
+# Please write a program which asks for two integer numbers. The program should then print out whichever is greater. If the numbers are equal, the program should print a different message.
+
+number_1 = int(input("Please enter a number: "))
+number_2 = int(input("Please enter another number: "))
+
+if number_1 > number_2:
+    print(number_1)
+elif number_2 > number_1:
+    print(number_2)
+else:
+    print("They're both equal!")
+
