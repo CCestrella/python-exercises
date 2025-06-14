@@ -172,4 +172,3 @@ elif number_2 > number_1:
     print(number_2)
 else:
     print("They're both equal!")
-
