@@ -163,12 +163,12 @@
 
 # Please write a program which asks for two integer numbers. The program should then print out whichever is greater. If the numbers are equal, the program should print a different message.
 
-number_1 = int(input("Please enter a number: "))
-number_2 = int(input("Please enter another number: "))
+# number_1 = int(input("Please enter a number: "))
+# number_2 = int(input("Please enter another number: "))
 
-if number_1 > number_2:
-    print(number_1)
-elif number_2 > number_1:
-    print(number_2)
-else:
-    print("They're both equal!")
+# if number_1 > number_2:
+#     print(number_1)
+# elif number_2 > number_1:
+#     print(number_2)
+# else:
+#     print("They're both equal!")
