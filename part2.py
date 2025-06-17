@@ -224,3 +224,23 @@ elif name in ["Morty", "Ferdie"]:
     print("I think you might be one of Mickey Mouse's nephews.")
 else:
     print("You're not a nephew of any character I know of.")
+
+
+# Ask for the number of points
+points = int(input("How many points [0-100]: "))
+
+# Determine the grade
+if points < 0 or points > 100:
+    print("Grade: impossible!")
+elif points < 50:
+    print("Grade: fail")
+elif points < 60:
+    print("Grade: 1")
+elif points < 70:
+    print("Grade: 2")
+elif points < 80:
+    print("Grade: 3")
+elif points < 90:
+    print("Grade: 4")
+else:
+    print("Grade: 5")
