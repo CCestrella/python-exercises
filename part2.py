@@ -213,3 +213,14 @@ elif age < 5:
 else:
     print(f"Ok, you're {age} years old")
 
+
+# Ask for the user's name
+name = input("Please type in your name: ")
+
+# Check against known nephew names
+if name in ["Huey", "Dewey", "Louie"]:
+    print("I think you might be one of Donald Duck's nephews.")
+elif name in ["Morty", "Ferdie"]:
+    print("I think you might be one of Mickey Mouse's nephews.")
+else:
+    print("You're not a nephew of any character I know of.")
