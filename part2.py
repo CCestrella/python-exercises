@@ -203,3 +203,13 @@ elif word2 > word1:
     print(f"{word2} comes alphabetically last.")
 else:
     print("You gave the same word twice.")
+
+    age = int(input("What is your age? "))
+
+if age < 0:
+    print("That must be a mistake")
+elif age < 5:
+    print("I suspect you can't write quite yet...")
+else:
+    print(f"Ok, you're {age} years old")
+
