@@ -244,3 +244,14 @@ elif points < 90:
     print("Grade: 4")
 else:
     print("Grade: 5")
+
+# Ask the user for a number
+number = int(input("Number: "))
+
+# Check divisibility and print result
+if number % 3 == 0 and number % 5 == 0:
+    print("FizzBuzz")
+elif number % 3 == 0:
+    print("Fizz")
+elif number % 5 == 0:
+    print("Buzz")
