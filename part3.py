@@ -6,3 +6,6 @@ while number < 10:
     number += 1
 
 print("Execution finished.")
+
+for number in range(2, 31, 2):
+    print(number)

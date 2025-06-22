@@ -289,3 +289,5 @@ elif gift < 1000000:
 else:
     tax = 142100 + (gift - 1000000) * 0.17
     print(f"Amount of tax: {tax:.1f} euros")
+
+
