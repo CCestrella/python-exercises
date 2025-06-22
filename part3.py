@@ -16,3 +16,9 @@ while number > 0:
     print(number)
     number -= 1
 print("Now!")
+
+
+upper_limit = int(input("Upper limit: "))
+
+for number in range(1, upper_limit):
+    print(number)
