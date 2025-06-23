@@ -22,3 +22,6 @@ upper_limit = int(input("Upper limit: "))
 
 for number in range(1, upper_limit):
     print(number)
+
+
+
