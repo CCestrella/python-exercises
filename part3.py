@@ -30,3 +30,11 @@ number = 1
 while number <= limit:
     print(number)
     number *= 2
+
+limit = int(input("Upper limit: "))
+base = int(input("Base: "))
+number = 1
+
+while number <= limit:
+    print(number)
+    number *= base
