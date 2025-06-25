@@ -24,5 +24,9 @@ for number in range(1, upper_limit):
     print(number)
 
 
+limit = int(input("Upper limit: "))
+number = 1
 
-  
+while number <= limit:
+    print(number)
+    number *= 2
