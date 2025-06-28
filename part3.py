@@ -68,3 +68,10 @@ elif len(string2) > len(string1):
     print(f"{string2} is longer")
 else:
     print("The strings are equally long")
+
+# Ask the user for a string
+user_input = input("Please type in a string: ")
+
+# Loop through the string in reverse order
+for char in reversed(user_input):
+    print(char)
