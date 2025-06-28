@@ -89,3 +89,10 @@ else:
         print("The second and the second to last characters are the same")
     else:
         print("The second and the second to last characters are different")
+
+
+# Ask the user for the desired width
+width = int(input("Width: "))
+
+# Print the line of hash characters
+print("#" * width)
