@@ -96,3 +96,11 @@ width = int(input("Width: "))
 
 # Print the line of hash characters
 print("#" * width)
+
+# Ask the user for width and height
+width = int(input("Width: "))
+height = int(input("Height: "))
+
+# Print the rectangle
+for _ in range(height):
+    print("#" * width)
