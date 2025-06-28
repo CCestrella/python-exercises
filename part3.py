@@ -48,4 +48,12 @@ while total < limit:
     number += 1
 
 print(total)
+# Ask the user for a string
+text = input("Please type in a string: ")
+
+# Ask the user for an amount and convert it to an integer
+amount = int(input("Please type in an amount: "))
+
+# Print the string multiplied by the amount, all on one line
+print(text * amount)
 
