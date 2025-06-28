@@ -75,3 +75,17 @@ user_input = input("Please type in a string: ")
 # Loop through the string in reverse order
 for char in reversed(user_input):
     print(char)
+
+
+# Ask the user for a string
+user_input = input("Please type in a string: ")
+
+# Check that the string is at least 2 characters long
+if len(user_input) < 2:
+    print("The string is too short!")
+else:
+    # Compare the second and second-to-last characters
+    if user_input[1] == user_input[-2]:
+        print("The second and the second to last characters are the same")
+    else:
+        print("The second and the second to last characters are different")
