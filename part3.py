@@ -111,3 +111,13 @@ while True:
         break
     print(user_input)
     print("-" * len(user_input))
+
+user_input = input("Please type in a string: ")
+
+# Calculate how many * are needed
+num_stars = 20 - len(user_input)
+
+# Create the final string with padding
+padded_string = "*" * num_stars + user_input
+
+print(padded_string)
