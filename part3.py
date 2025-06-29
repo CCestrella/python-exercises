@@ -104,3 +104,10 @@ height = int(input("Height: "))
 # Print the rectangle
 for _ in range(height):
     print("#" * width)
+
+while True:
+    user_input = input("Please type in a string: ")
+    if user_input == "":
+        break
+    print(user_input)
+    print("-" * len(user_input))
